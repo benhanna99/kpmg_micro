@@ -1,14 +1,14 @@
 @font-face {
   font-family: "KPMG";
-  src: url("assets/fonts/KPMG-Extralight.woff2") format("woff2"), url("assets/fonts/KPMG-Extralight.woff") format("woff");
+  src: url("KPMG-Extralight.woff2") format("woff2"), url("KPMG-Extralight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Univers for KPMG";
-  src: url("assets/fonts/UniversforKPMG-Bold.eot");
-  src: url("assets/fonts/UniversforKPMG-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/UniversforKPMG-Bold.woff2") format("woff2"), url("assets/fonts/UniversforKPMG-Bold.woff") format("woff"), url("assets/fonts/UniversforKPMG-Bold.ttf") format("truetype");
+  src: url("UniversforKPMG-Bold.eot");
+  src: url("UniversforKPMG-Bold.eot?#iefix") format("embedded-opentype"), url("UniversforKPMG-Bold.woff2") format("woff2"), url("UniversforKPMG-Bold.woff") format("woff"), url("UniversforKPMG-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@ html {
 }
 
 h1 {
-  font-family: "KPMG";
+  font-family: "KPMG", sans-serif;
   font-size: 200px;
   color: #fff;
   font-weight: 200;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -52,7 +52,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -62,7 +62,7 @@ h4 {
 }
 
 p {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -72,7 +72,7 @@ p {
 
 span.small {
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -85,7 +85,7 @@ span.small {
   width: 280px;
   height: 43.0717773438px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -94,30 +94,13 @@ span.small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-.button__blue {
-  background-color: #0991da;
-  width: 280px;
-  height: 43.0717773438px;
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  color: #fff;
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 .button__blue:hover {
   background-color: #fff;
   color: #470A68;
+  text-decoration: none;
 }
 
 .button__purple {
@@ -125,7 +108,7 @@ span.small {
   width: 280px;
   height: 43.0717773438px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -134,12 +117,13 @@ span.small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 .button__purple:hover {
   background-color: #fff;
   color: #470A68;
+  text-decoration: none;
 }
 
 .button__transparent {
@@ -148,7 +132,7 @@ span.small {
   width: 280px;
   height: 43.0717773438px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -157,13 +141,14 @@ span.small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 .button__transparent:hover {
   background-color: #fff;
   border: 2px solid #fff;
   color: #470A68;
+  text-decoration: none;
 }
 
 .desktop-nav {
@@ -200,12 +185,18 @@ span.small {
   align-items: flex-start;
   height: 100vh;
   flex-direction: column;
+  position: relative;
+  margin-top: -10rem;
+}
+.hero .wrapper .content .sub-title {
+  margin-top: -0.5em;
+  margin-bottom: 1em;
 }
 .hero .wrapper .content .button {
   width: 286px;
   height: 63px;
   background-color: #fff;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -217,6 +208,7 @@ span.small {
   align-items: center;
   border-radius: 20px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .hero .wrapper .content .button:hover {
   background-color: #0991da;
@@ -226,6 +218,8 @@ span.small {
 .about {
   position: relative;
   width: 100%;
+  overflow: visible;
+  z-index: 10;
 }
 .about .content {
   position: absolute;
@@ -233,29 +227,49 @@ span.small {
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
   left: 0;
   right: 0;
+  padding-top: 4rem;
+}
+.about .content .title {
+  padding-bottom: 2.5rem;
 }
 .about .content .text {
   display: flex;
   flex-direction: column;
+  width: 95%;
 }
 .about .content .row.buttons {
-  width: 50%;
+  width: 55%;
+  justify-content: space-between;
+  margin: 0px;
+}
+.about .content .row.buttons .item {
+  width: 100%;
+  max-width: 280px;
+}
+.about .content .row.buttons .item .button__one, .about .content .row.buttons .item .button__two {
+  width: 280px;
+  height: 73.0717773438px;
+}
+.about .content .row.buttons .item .small {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
 }
 
 @font-face {
   font-family: "KPMG";
-  src: url("assets/fonts/KPMG-Extralight.woff2") format("woff2"), url("assets/fonts/KPMG-Extralight.woff") format("woff");
+  src: url("KPMG-Extralight.woff2") format("woff2"), url("KPMG-Extralight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Univers for KPMG";
-  src: url("assets/fonts/UniversforKPMG-Bold.eot");
-  src: url("assets/fonts/UniversforKPMG-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/UniversforKPMG-Bold.woff2") format("woff2"), url("assets/fonts/UniversforKPMG-Bold.woff") format("woff"), url("assets/fonts/UniversforKPMG-Bold.ttf") format("truetype");
+  src: url("UniversforKPMG-Bold.eot");
+  src: url("UniversforKPMG-Bold.eot?#iefix") format("embedded-opentype"), url("UniversforKPMG-Bold.woff2") format("woff2"), url("UniversforKPMG-Bold.woff") format("woff"), url("UniversforKPMG-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -273,7 +287,7 @@ html {
 }
 
 h1 {
-  font-family: "KPMG";
+  font-family: "KPMG", sans-serif;
   font-size: 200px;
   color: #fff;
   font-weight: 200;
@@ -281,7 +295,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -290,7 +304,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -299,7 +313,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -309,7 +323,7 @@ h4 {
 }
 
 p {
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -319,7 +333,7 @@ p {
 
 span.small {
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -332,7 +346,7 @@ span.small {
   width: 280px;
   height: 43.0717773438px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -341,30 +355,13 @@ span.small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
-  text-decoration: none;
-}
-
-.button__blue {
-  background-color: #0991da;
-  width: 280px;
-  height: 43.0717773438px;
-  text-align: center;
-  font-family: "Helvetica Neue";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  color: #fff;
-  letter-spacing: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 .button__blue:hover {
   background-color: #fff;
   color: #470A68;
+  text-decoration: none;
 }
 
 .button__purple {
@@ -372,7 +369,7 @@ span.small {
   width: 280px;
   height: 43.0717773438px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -381,12 +378,13 @@ span.small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 .button__purple:hover {
   background-color: #fff;
   color: #470A68;
+  text-decoration: none;
 }
 
 .button__transparent {
@@ -395,7 +393,7 @@ span.small {
   width: 280px;
   height: 43.0717773438px;
   text-align: center;
-  font-family: "Helvetica Neue";
+  font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -404,13 +402,14 @@ span.small {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 15px;
   text-decoration: none;
 }
 .button__transparent:hover {
   background-color: #fff;
   border: 2px solid #fff;
   color: #470A68;
+  text-decoration: none;
 }
 
 .timeline {
@@ -425,6 +424,7 @@ span.small {
 
 .speakers {
   background-color: #6d2077;
+  position: relative;
 }
 
 /* team12 */

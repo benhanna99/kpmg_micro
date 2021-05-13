@@ -22,11 +22,18 @@
         right: 0;
 
         .content {
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            height: 100vh;
-            flex-direction: column;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          height: 100vh;
+          flex-direction: column;
+          position: relative;
+          margin-top: -10rem;
+
+          .sub-title {
+            margin-top: -.5em;
+            margin-bottom: 1em;
+          }
 
             .button {
                 width: 286px;
@@ -44,6 +51,7 @@
                 align-items: center;
                 border-radius: 20px;
                 text-decoration: none;
+                text-transform: uppercase;
 
                 &:hover {
                     background-color: $blue;

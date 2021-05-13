@@ -33,10 +33,10 @@ $blue : #0991da;
 $dark : #470A68;
 $purple: #c02b7c;
 
-$font-stack1 : "Helvetica Neue";
-$font-stack2 : "KPMG";
+$font-stack1 : 'Work Sans', sans-serif;
+$font-stack2 : "KPMG", sans-serif;
 
-$borderRadius : 10px;
+$borderRadius : 15px;
 
 .bg__shape {
     height: 100%;
@@ -114,28 +114,11 @@ span.small {
     align-items: center;
     border-radius: $borderRadius;
     text-decoration: none;
-}
-
-.button__blue {
-    background-color: $blue;
-    width: 280px;
-    height: 43.07177734375px;
-    text-align: center;
-    font-family: $font-stack1;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    color: #fff;
-    letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: $borderRadius;
-    text-decoration: none;
 
     &:hover {
         background-color: #fff;
         color: $dark;
+        text-decoration: none;
     }
 }
 
@@ -159,6 +142,7 @@ span.small {
     &:hover {
         background-color: #fff;
         color: $dark;
+        text-decoration: none;
     }
 }
 
@@ -184,5 +168,6 @@ span.small {
         background-color: #fff;
         border: 2px solid #fff;
         color: $dark;
+        text-decoration: none;
     }
 }
