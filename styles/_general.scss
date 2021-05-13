@@ -1,10 +1,7 @@
 @font-face {
     font-family: 'KPMG';
-    src: url('assets/fonts/KPMG-Extralight.eot');
-    src: url('assets/fonts/KPMG-Extralight.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/KPMG-Extralight.woff2') format('woff2'),
-        url('assets/fonts/KPMG-Extralight.woff') format('woff'),
-        url('assets/fonts/KPMG-Extralight.ttf') format('truetype');
+    src: url('KPMG-Extralight.woff2') format('woff2'),
+         url('KPMG-Extralight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -12,11 +9,11 @@
 
 @font-face {
     font-family: 'Univers for KPMG';
-    src: url('assets/fonts/UniversforKPMG-Bold.eot');
-    src: url('assets/fonts/UniversforKPMG-Bold.eot?#iefix') format('embedded-opentype'),
-        url('assets/fonts/UniversforKPMG-Bold.woff2') format('woff2'),
-        url('assets/fonts/UniversforKPMG-Bold.woff') format('woff'),
-        url('assets/fonts/UniversforKPMG-Bold.ttf') format('truetype');
+    src: url('UniversforKPMG-Bold.eot');
+    src: url('UniversforKPMG-Bold.eot?#iefix') format('embedded-opentype'),
+        url('UniversforKPMG-Bold.woff2') format('woff2'),
+        url('UniversforKPMG-Bold.woff') format('woff'),
+        url('UniversforKPMG-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -48,7 +45,7 @@ $borderRadius : 10px;
 
 h1 {
     font-family: $font-stack2;
-    font-size: 80px;
+    font-size: 200px;
     color: #fff;
     font-weight: 200;
     font-style: normal;
