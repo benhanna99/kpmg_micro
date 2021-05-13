@@ -1,0 +1,10 @@
+.timeline {
+    position: relative;
+    background-color: $secondary;
+
+    .content {
+        position: absolute;
+        display: flex;
+        z-index: 1;
+    }
+}

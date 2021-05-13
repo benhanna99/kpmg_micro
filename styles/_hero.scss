@@ -1,0 +1,56 @@
+
+  
+  /* Add some content at the bottom of the video/page */
+  .hero {
+        overflow: hidden;
+        position: relative;
+        margin-bottom: -.4em;
+    
+        #bgVideo {
+            position: relative;
+            right: 0;
+            top: 0;
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+          }
+
+     .wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            flex-direction: column;
+
+            .button {
+                width: 286px;
+                height: 63px;
+                background-color: #fff;
+                font-family: $font-stack1;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 22px;
+                color: #470A68;
+                letter-spacing: 2px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: $blue;
+                    color :#fff;
+                }
+                
+            }
+          }
+        }
+  }

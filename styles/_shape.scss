@@ -1,0 +1,12 @@
+.shape {
+    position: relative;
+    width: 100%;
+    .content {
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        bottom: 2rem;
+    }
+}

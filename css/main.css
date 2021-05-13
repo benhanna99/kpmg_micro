@@ -1,0 +1,543 @@
+@font-face {
+  font-family: "KPMG";
+  src: url("assets/fonts/KPMG-Extralight.eot");
+  src: url("assets/fonts/KPMG-Extralight.eot?#iefix") format("embedded-opentype"), url("assets/fonts/KPMG-Extralight.woff2") format("woff2"), url("assets/fonts/KPMG-Extralight.woff") format("woff"), url("assets/fonts/KPMG-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Univers for KPMG";
+  src: url("assets/fonts/UniversforKPMG-Bold.eot");
+  src: url("assets/fonts/UniversforKPMG-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/UniversforKPMG-Bold.woff2") format("woff2"), url("assets/fonts/UniversforKPMG-Bold.woff") format("woff"), url("assets/fonts/UniversforKPMG-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg__shape {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: "KPMG";
+  font-size: 80px;
+  color: #fff;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+span.small {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.button__blue {
+  background-color: #0991da;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button__blue {
+  background-color: #0991da;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button__blue:hover {
+  background-color: #fff;
+  color: #470A68;
+}
+
+.button__purple {
+  background-color: #c02b7c;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button__purple:hover {
+  background-color: #fff;
+  color: #470A68;
+}
+
+.button__transparent {
+  background-color: transparent;
+  border: 2px solid #c02b7c;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button__transparent:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #470A68;
+}
+
+.desktop-nav {
+  position: relative;
+  top: 0px;
+}
+.desktop-nav .navbar-dark {
+  background-color: #461f4b;
+}
+
+/* Add some content at the bottom of the video/page */
+.hero {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: -0.4em;
+}
+.hero #bgVideo {
+  position: relative;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.hero .wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.hero .wrapper .content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  flex-direction: column;
+}
+.hero .wrapper .content .button {
+  width: 286px;
+  height: 63px;
+  background-color: #fff;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #470A68;
+  letter-spacing: 2px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.hero .wrapper .content .button:hover {
+  background-color: #0991da;
+  color: #fff;
+}
+
+.about {
+  position: relative;
+  width: 100%;
+}
+.about .content {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  left: 0;
+  right: 0;
+}
+.about .content .text {
+  display: flex;
+  flex-direction: column;
+}
+.about .content .row.buttons {
+  width: 50%;
+}
+
+@font-face {
+  font-family: "KPMG";
+  src: url("assets/fonts/KPMG-Extralight.eot");
+  src: url("assets/fonts/KPMG-Extralight.eot?#iefix") format("embedded-opentype"), url("assets/fonts/KPMG-Extralight.woff2") format("woff2"), url("assets/fonts/KPMG-Extralight.woff") format("woff"), url("assets/fonts/KPMG-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Univers for KPMG";
+  src: url("assets/fonts/UniversforKPMG-Bold.eot");
+  src: url("assets/fonts/UniversforKPMG-Bold.eot?#iefix") format("embedded-opentype"), url("assets/fonts/UniversforKPMG-Bold.woff2") format("woff2"), url("assets/fonts/UniversforKPMG-Bold.woff") format("woff"), url("assets/fonts/UniversforKPMG-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg__shape {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: "KPMG";
+  font-size: 80px;
+  color: #fff;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+span.small {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.button__blue {
+  background-color: #0991da;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button__blue {
+  background-color: #0991da;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button__blue:hover {
+  background-color: #fff;
+  color: #470A68;
+}
+
+.button__purple {
+  background-color: #c02b7c;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button__purple:hover {
+  background-color: #fff;
+  color: #470A68;
+}
+
+.button__transparent {
+  background-color: transparent;
+  border: 2px solid #c02b7c;
+  width: 280px;
+  height: 43.0717773438px;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.button__transparent:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: #470A68;
+}
+
+.timeline {
+  position: relative;
+  background-color: #6d2077;
+}
+.timeline .content {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+}
+
+.speakers {
+  background-color: #6d2077;
+}
+
+/* team12 */
+.cb-team12 {
+  border: none;
+}
+
+.cb-team12 .hoverbox {
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  hoverbox-10-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.cb-team12 .hoverbox img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  min-height: 300px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center center;
+}
+
+.cb-team12 .hoverbox:hover img {
+  /* left: 100%; */
+  /* transform: scale(0.7) rotateZ(180deg); */
+}
+
+.cb-team12 .hoverbox .hoverbox-content {
+  width: 100%;
+  height: 100%;
+  background: #323232;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  transform: scale(0.7) rotateZ(180deg);
+  transition: all 0.3s ease 0s;
+}
+
+.cb-team12 .hoverbox:hover .hoverbox-content {
+  left: 0;
+  transform: scale(1) rotateZ(0deg);
+}
+
+.cb-team12 .hoverbox .title {
+  font-size: 21px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.cb-team12 .hoverbox .description {
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+  padding: 0 10px;
+  margin: 15px 0;
+}
+
+.cb-team12 .hoverbox .read-more {
+  display: block;
+  width: 100px;
+  padding: 7px 0;
+  background: #fff;
+  border-radius: 10px 0 10px 0;
+  font-size: 14px;
+  color: #484141;
+  text-transform: capitalize;
+  margin: 0 auto;
+  transition: all 0.3s ease 0s;
+  background-repeat: no-repeat;
+}
+
+.cb-team12 .hoverbox .read-more:hover {
+  border-radius: 0 10px 0 10px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .cb-team12 .hoverbox {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .cb-team12 .hoverbox .title {
+    margin-top: 10px;
+    padding-bottom: 8px;
+  }
+}
+.shape {
+  position: relative;
+  width: 100%;
+}
+.shape .content {
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */

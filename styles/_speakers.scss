@@ -1,0 +1,103 @@
+
+.speakers {
+    background-color: $secondary;
+}
+/* team12 */
+.cb-team12 {
+    border: none;
+}
+
+.cb-team12 .hoverbox {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    hoverbox-10-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cb-team12 .hoverbox img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    transition: all 0.3s ease 0s;
+	    min-height: 300px;
+     object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center center;
+}
+
+.cb-team12 .hoverbox:hover img {
+    /* left: 100%; */
+    /* transform: scale(0.7) rotateZ(180deg); */
+}
+
+.cb-team12 .hoverbox .hoverbox-content {
+    width: 100%;
+    height: 100%;
+    background: #323232;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transform: scale(0.7) rotateZ(180deg);
+    transition: all 0.3s ease 0s;
+}
+
+.cb-team12 .hoverbox:hover .hoverbox-content {
+    left: 0;
+    transform: scale(1) rotateZ(0deg);
+}
+
+.cb-team12 .hoverbox .title {
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    margin-top: 40px;
+}
+
+.cb-team12 .hoverbox .description {
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+
+.cb-team12 .hoverbox .read-more {
+    display: block;
+    width: 100px;
+    padding: 7px 0;
+    background: #fff;
+    border-radius: 10px 0 10px 0;
+    font-size: 14px;
+    color: #484141;
+    text-transform: capitalize;
+    margin: 0 auto;
+    transition: all 0.3s ease 0s;
+    background-repeat: no-repeat;
+}
+
+.cb-team12 .hoverbox .read-more:hover {
+    border-radius: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 990px) {
+    .cb-team12 .hoverbox {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .cb-team12 .hoverbox .title {
+        margin-top: 10px;
+        padding-bottom: 8px;
+    }
+}

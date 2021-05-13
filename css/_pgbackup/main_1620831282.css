@@ -1,0 +1,51 @@
+html {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desktop-nav {
+  position: relative;
+  top: 0px;
+}
+.desktop-nav .navbar-dark {
+  background-color: #461f4b;
+}
+
+/* Add some content at the bottom of the video/page */
+.hero {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: -0.4em;
+}
+.hero .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero #bgVideo {
+  position: relative;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about {
+  position: relative;
+}
+
+html {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=main.css.map */

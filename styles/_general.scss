@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'KPMG';
+    src: url('assets/fonts/KPMG-Extralight.eot');
+    src: url('assets/fonts/KPMG-Extralight.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/KPMG-Extralight.woff2') format('woff2'),
+        url('assets/fonts/KPMG-Extralight.woff') format('woff'),
+        url('assets/fonts/KPMG-Extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers for KPMG';
+    src: url('assets/fonts/UniversforKPMG-Bold.eot');
+    src: url('assets/fonts/UniversforKPMG-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/UniversforKPMG-Bold.woff2') format('woff2'),
+        url('assets/fonts/UniversforKPMG-Bold.woff') format('woff'),
+        url('assets/fonts/UniversforKPMG-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    width: 100%;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+$primary : #461f4b;
+$secondary : #6d2077; 
+$blue : #0991da;
+$dark : #470A68;
+$purple: #c02b7c;
+
+$font-stack1 : "Helvetica Neue";
+$font-stack2 : "KPMG";
+
+$borderRadius : 10px;
+
+.bg__shape {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    font-family: $font-stack2;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h2 {
+    font-family:  $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 2px;  
+}
+
+h4 {
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+span.small {
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 2px;
+}
+
+.button__blue {
+    background-color: $blue;
+    width: 280px;
+    height: 43.07177734375px;
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $borderRadius;
+    text-decoration: none;
+}
+
+.button__blue {
+    background-color: $blue;
+    width: 280px;
+    height: 43.07177734375px;
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $borderRadius;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #fff;
+        color: $dark;
+    }
+}
+
+.button__purple {
+    background-color: $purple;
+    width: 280px;
+    height: 43.07177734375px;
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $borderRadius;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: #fff;
+        color: $dark;
+    }
+}
+
+.button__transparent {
+    background-color: transparent;
+    border: 2px solid $purple;
+    width: 280px;
+    height: 43.07177734375px;
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $borderRadius;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: #fff;
+        border: 2px solid #fff;
+        color: $dark;
+    }
+}

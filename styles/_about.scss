@@ -1,0 +1,24 @@
+.about {
+    position: relative;
+    width: 100%;
+    
+    .content {
+        position: absolute;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: flex-end;
+        left: 0;
+         right: 0;
+
+        .text { 
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row.buttons {
+            width: 50%;
+        }
+    }
+}

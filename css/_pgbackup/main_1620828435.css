@@ -1,0 +1,36 @@
+html {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desktop-nav {
+  position: fixed;
+  top: 0px;
+}
+
+/* Add some content at the bottom of the video/page */
+.hero {
+  position: relative;
+}
+.hero .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+.hero #bgVideo {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+html {
+  width: 100%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
