@@ -354,7 +354,7 @@ span.small {
 .hero {
   overflow: hidden;
   position: relative;
-  margin-bottom: -0.4em;
+  height: 100vh;
 }
 .hero #bgVideo {
   position: relative;
