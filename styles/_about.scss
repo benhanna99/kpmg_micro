@@ -13,7 +13,7 @@
         justify-content: space-between;
         left: 0;
         right: 0;
-        padding-top: 4rem;  
+        padding-top: 3rem;  
         
         .title {
             padding-bottom: 2.5rem;
@@ -26,7 +26,7 @@
         }
 
         .row.buttons {
-            width: 55%;
+            width: 45%;
             justify-content: space-between;
             margin: 0px;
 
@@ -37,6 +37,7 @@
                 .button__one,  .button__two {
                     width: 280px;
                     height: 73.0717773438px;
+                    text-transform: uppercase;
                 }
 
                 .small {

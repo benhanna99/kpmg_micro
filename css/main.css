@@ -90,8 +90,8 @@ span.small {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  color: white;
+  font-size: 16px;
+  color: #fff;
   letter-spacing: 2px;
 }
 
@@ -244,7 +244,7 @@ span.small {
   justify-content: flex-end;
 }
 .desktop-nav .navbar-dark .navbar-nav .nav-item {
-  padding-right: 3rem;
+  padding-right: 3.5rem;
 }
 .desktop-nav .navbar-dark .navbar-nav .nav-item .nav-link {
   white-space: nowrap;
@@ -272,8 +272,21 @@ span.small {
   font-size: 14px;
   letter-spacing: 2px;
   border: none;
-  padding-left: 2em;
-  padding-right: 2em;
+  border-radius: 7px;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  border: none;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-bottom: 3px;
   text-transform: uppercase;
 }
 .desktop-nav .btn:hover {
@@ -360,7 +373,7 @@ span.small {
   justify-content: space-between;
   left: 0;
   right: 0;
-  padding-top: 4rem;
+  padding-top: 3rem;
 }
 .about .content .title {
   padding-bottom: 2.5rem;
@@ -371,7 +384,7 @@ span.small {
   width: 95%;
 }
 .about .content .row.buttons {
-  width: 55%;
+  width: 45%;
   justify-content: space-between;
   margin: 0px;
 }
@@ -382,6 +395,7 @@ span.small {
 .about .content .row.buttons .item .button__one, .about .content .row.buttons .item .button__two {
   width: 280px;
   height: 73.0717773438px;
+  text-transform: uppercase;
 }
 .about .content .row.buttons .item .small {
   justify-content: center;
@@ -481,8 +495,8 @@ span.small {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  color: white;
+  font-size: 16px;
+  color: #fff;
   letter-spacing: 2px;
 }
 
@@ -564,6 +578,7 @@ span.small {
 .timeline .content {
   display: flex;
   z-index: 1;
+  padding-top: 6rem;
 }
 .timeline .content .nav-tabs .nav-item.show .nav-link, .timeline .content .nav-tabs .nav-link.active {
   color: unset;
@@ -880,7 +895,10 @@ span.small {
   z-index: 1;
   left: 0;
   right: 0;
-  bottom: 2rem;
+  bottom: 1rem;
+}
+.shape .content h3 {
+  text-transform: uppercase;
 }
 
 .footer.desktop-nav .navbar-dark {
