@@ -581,7 +581,7 @@ span.small {
   padding-top: 6rem;
 }
 .timeline .content .tab-content {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 .timeline .content .nav-tabs .nav-item.show .nav-link, .timeline .content .nav-tabs .nav-link.active {
   color: unset;
@@ -656,8 +656,7 @@ span.small {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
-  letter-spacing: 2px;
+  font-size: 1.8em;
   color: #fff;
 }
 .timeline .content .left .pin {
@@ -675,12 +674,13 @@ span.small {
   height: 35px;
 }
 .timeline .content .left .pin .body {
-  height: 7rem;
+  height: 10rem;
   width: 1px;
   background-color: white;
 }
 .timeline .content .right {
   padding-left: 2rem;
+  padding-bottom: 3rem;
 }
 .timeline .content .right p {
   font-size: 16px;

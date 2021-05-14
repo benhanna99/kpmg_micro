@@ -8,7 +8,7 @@
         padding-top: 6rem;
 
         .tab-content {
-            padding-top: 2em;
+            padding-top: 1em;
         }
 
         .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -93,8 +93,7 @@
                         font-family: $font-stack1;
                         font-style: normal;
                         font-weight: bold;
-                        font-size: 24px;
-                        letter-spacing: 2px;
+                        font-size: 1.8em;
                         color: #fff;
                     }
                 }
@@ -115,7 +114,7 @@
                     height: 35px;
                 }
                 .body {
-                    height: 7rem;
+                    height: 10rem;
                     width: 1px;
                     background-color: white;
                 }
@@ -124,6 +123,7 @@
 
         .right {
             padding-left: 2rem;
+            padding-bottom: 3rem;
 
             p {
                 font-size: 16px;
