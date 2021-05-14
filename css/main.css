@@ -725,7 +725,7 @@ span.small {
   width: 500px;
   justify-content: space-between;
   padding-bottom: 3rem;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
 }
 .speakers .nav-tabs .nav-link {
   width: 242px;
@@ -920,6 +920,10 @@ span.small {
 }
 .shape .content h3 {
   text-transform: uppercase;
+}
+
+.shape2 .content {
+  bottom: 2rem;
 }
 
 .footer.desktop-nav .navbar-dark {
