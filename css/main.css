@@ -580,6 +580,9 @@ span.small {
   z-index: 1;
   padding-top: 6rem;
 }
+.timeline .content .tab-content {
+  padding-top: 2em;
+}
 .timeline .content .nav-tabs .nav-item.show .nav-link, .timeline .content .nav-tabs .nav-link.active {
   color: unset;
   background-color: unset;
@@ -627,8 +630,11 @@ span.small {
   margin-top: 3rem;
   margin-bottom: 3rem;
   background: #c02b7c;
-  padding: 2rem;
-  border-radius: 20px;
+  border-radius: 15px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 .timeline .content .left {
   display: flex;
