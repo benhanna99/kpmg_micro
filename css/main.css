@@ -40,6 +40,10 @@ html {
   visibility: hidden;
 }
 
+.justify-it {
+  justify-content: center;
+}
+
 h1 {
   font-family: "KPMG", sans-serif;
   font-size: 200px;
@@ -443,6 +447,10 @@ html {
 
 #showHere {
   visibility: hidden;
+}
+
+.justify-it {
+  justify-content: center;
 }
 
 h1 {
