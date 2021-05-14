@@ -1433,6 +1433,10 @@ span.small {
   }
 }
 @media (max-width: 360px) {
+  .hero {
+    height: 600px;
+  }
+
   .hero #bgVideo {
     height: 600px;
   }
