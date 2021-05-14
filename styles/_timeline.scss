@@ -115,9 +115,10 @@
                     height: 35px;
                 }
                 .body {
-                    height: 10rem;
+                    height: 9rem;
                     width: 1px;
                     background-color: white;
+
                 }
             }
         }
@@ -136,4 +137,8 @@
             }
         }
     }
+}
+
+.timeline .content .item:last-child .left .pin .body {
+    height: 0px;
 }
