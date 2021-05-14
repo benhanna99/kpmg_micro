@@ -664,7 +664,7 @@ span.small {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  right: 0px;
+  right: 3rem;
   top: 2.5em;
 }
 .timeline .content .left .pin .head {
@@ -681,6 +681,10 @@ span.small {
 .timeline .content .right {
   padding-left: 2rem;
   padding-bottom: 3rem;
+}
+.timeline .content .right h4 {
+  font-weight: bold;
+  font-size: 30px;
 }
 .timeline .content .right p {
   font-size: 16px;
