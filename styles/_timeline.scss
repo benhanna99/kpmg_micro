@@ -2,6 +2,11 @@
     display: block;
     background-color: $secondary;
 
+    h3.lg-only {
+        text-transform: uppercase;
+    }
+
+
     .content {
         display: flex;
         z-index: 1;

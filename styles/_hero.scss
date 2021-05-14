@@ -20,6 +20,8 @@
         top: 0;
         left: 0;
         right: 0;
+        height: 100%;
+        width: 100%;
 
         .content {
           display: flex;
@@ -29,6 +31,10 @@
           flex-direction: column;
           position: relative;
           margin-top: -10rem;
+
+          .title {
+            font-size: 200px;
+          }
 
           .sub-title {
             margin-top: -.5em;

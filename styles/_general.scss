@@ -61,12 +61,13 @@ $borderRadius : 15px;
 }
 
 .justify-it {
-    justify-content: center;
+    justify-content: space-between;
 }
+
 
 h1 {
     font-family: $font-stack2;
-    font-size: 200px;
+    font-size: 50px;
     color: #fff;
     font-weight: 200;
     font-style: normal;
