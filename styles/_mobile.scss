@@ -166,6 +166,9 @@
     .footer .navbar-dark .navbar-brand {
         left: unset;
     }
+    .about.sub .content .text {
+        width: 100%;
+    }
 }
 
 @media (max-width: 875px) {
@@ -277,6 +280,10 @@
 
     .footer.desktop-nav .navbar-dark .navbar-nav .nav-item:not(:last-child) {
         padding-right: unset;
+    }
+
+    .about .container {
+        width: 90%!important;
     }
 }
 
