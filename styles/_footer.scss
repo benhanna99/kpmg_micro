@@ -1,0 +1,21 @@
+.footer.desktop-nav {
+    .navbar-dark {
+        background-color: $secondary;
+         .navbar-nav {
+            .nav-item {
+
+                &:not(:last-child) {
+                    padding-right: 3rem;
+                }
+
+                .nav-link {
+                    font-weight: normal;
+                    font-size: 10px;
+                    &:hover {
+                        color: $blue;
+                    }
+                }
+            }
+         }
+    }
+}

@@ -1,25 +1,81 @@
 
 .speakers {
-    background-color: $secondary;
-    position: relative;
+    background-color: $primary;
+
+    .wrapper {
+        padding-bottom: 5rem;
+    }
+
+    .tab-content {
+        width: 100%;
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: unset;
+        background-color: unset;
+        border-color: unset;
+    }
+    
+    .nav-tabs .nav-link {
+        border: unset;
+        border-top-left-radius: unset;
+        border-top-right-radius: unset;
+    }
+
+    .nav-tabs {
+        border-bottom: none;
+        width: 500px;
+        justify-content: space-between;
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+
+        .nav-link  {
+            width: 242px;
+            height: 70.0717773438px;
+            text-align: center;
+            font-family: $font-stack1;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            text-decoration: none; 
+            border: 3px solid $purple;
+            background-color: transparent;
+            color: #fff;   
+
+            &.active {
+                background-color: $blue;
+                color: #fff;
+                border: 3px solid $blue;
+            }
+
+            &:hover {
+                background-color: #fff;
+                color: $dark;
+                border: 3px solid #fff;
+            }
+        }        
+    }
 }
 /* team12 */
-.cb-team12 {
+.speaker {
     border: none;
 }
 
-.cb-team12 .hoverbox {
+.speaker .hoverbox {
     text-align: center;
     overflow: hidden;
     position: relative;
-    hoverbox-10-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    width: 413px;
+    height: 426px;
+    border: 4px solid $secondary;
 }
 
-.cb-team12 .hoverbox img {
+.speaker .hoverbox .bg {
     width: 100%;
     height: auto;
     position: relative;
@@ -32,28 +88,32 @@
     object-position: center center;
 }
 
-.cb-team12 .hoverbox:hover img {
+.speaker .hoverbox:hover .bg {
     /* left: 100%; */
     /* transform: scale(0.7) rotateZ(180deg); */
 }
 
-.cb-team12 .hoverbox .hoverbox-content {
+.speaker .hoverbox .hoverbox-content {
     width: 100%;
     height: 100%;
-    background: #323232;
+    background: $secondary;
     position: absolute;
     top: 0;
     left: -100%;
     transform: scale(0.7) rotateZ(180deg);
     transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cb-team12 .hoverbox:hover .hoverbox-content {
+.speaker .hoverbox:hover .hoverbox-content {
     left: 0;
     transform: scale(1) rotateZ(0deg);
+    z-index: 10;
 }
 
-.cb-team12 .hoverbox .title {
+.speaker .hoverbox .title {
     font-size: 21px;
     font-weight: 700;
     color: #fff;
@@ -63,15 +123,17 @@
     margin-top: 40px;
 }
 
-.cb-team12 .hoverbox .description {
-    font-size: 14px;
-    font-style: italic;
+.speaker .hoverbox .description {
+    text-align: center;
+    font-family:$font-stack1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
     color: #fff;
-    padding: 0 10px;
-    margin: 15px 0;
+    padding: 2rem;
 }
 
-.cb-team12 .hoverbox .read-more {
+.speaker .hoverbox .read-more {
     display: block;
     width: 100px;
     padding: 7px 0;
@@ -85,20 +147,69 @@
     background-repeat: no-repeat;
 }
 
-.cb-team12 .hoverbox .read-more:hover {
+.speaker .hoverbox .read-more:hover {
     border-radius: 0 10px 0 10px;
     text-decoration: none;
 }
 
 @media only screen and (max-width: 990px) {
-    .cb-team12 .hoverbox {
+    .speaker .hoverbox {
         margin-bottom: 30px;
     }
 }
 
 @media only screen and (max-width: 360px) {
-    .cb-team12 .hoverbox .title {
+    .speaker .hoverbox .title {
         margin-top: 10px;
         padding-bottom: 8px;
     }
+}
+
+.speaker .hoverbox .speaker-box {
+    position: relative;
+}
+
+.speaker  .hoverbox  .content {
+    position: absolute;
+    bottom: 0px;
+}
+
+.speaker  .hoverbox .text {
+    position: absolute;
+    bottom: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 3;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+.speaker  .hoverbox  .text .name {
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.speaker  .hoverbox  .text .job {
+    text-align: center;
+    font-family: $font-stack1;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}  
+
+
+.speaker .item {
+    margin-bottom: 3rem;
 }

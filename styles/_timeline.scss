@@ -1,10 +1,125 @@
 .timeline {
-    position: relative;
+    display: block;
     background-color: $secondary;
 
     .content {
-        position: absolute;
         display: flex;
         z-index: 1;
+
+        .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+            color: unset;
+            background-color: unset;
+            border-color: unset;
+        }
+        
+        .nav-tabs .nav-link {
+            border: unset;
+            border-top-left-radius: unset;
+            border-top-right-radius: unset;
+        }
+
+        .nav-tabs {
+            border-bottom: none;
+            width: 500px;
+            justify-content: space-between;
+
+            .nav-link  {
+                width: 242px;
+                height: 70.0717773438px;
+                text-align: center;
+                font-family: $font-stack1;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                letter-spacing: 2px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 15px;
+                text-decoration: none; 
+                border: 3px solid $purple;
+                background-color: transparent;
+                color: #fff;   
+
+                &.active {
+                    background-color: $blue;
+                    color: #fff;
+                    border: 3px solid $blue;
+                }
+
+                &:hover {
+                    background-color: #fff;
+                    color: $dark;
+                    border: 3px solid #fff;
+                }
+            }        
+        }
+
+        .title {
+            margin-top: 3rem;
+            margin-bottom: 3rem;    
+            background: $purple;
+            padding: 2rem;
+            border-radius: 20px;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .frame {
+                img {
+                    position: relative;
+                    object-fit: contain;
+                }
+    
+                .time {
+                    position: absolute;
+                    top: 2rem;
+                    padding-left: 5rem;
+                    margin: auto;
+           
+                    span {
+                        font-family: $font-stack1;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 24px;
+                        letter-spacing: 2px;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .pin {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                right: 0px;
+                top: 2.5em;
+
+                .head {
+                    border-radius: 100%;
+                    background: #0991da;
+                    width: 35px;
+                    height: 35px;
+                }
+                .body {
+                    height: 7rem;
+                    width: 1px;
+                    background-color: white;
+                }
+            }
+        }
+
+        .right {
+            padding-left: 2rem;
+
+            p {
+                font-size: 16px;
+            }
+        }
     }
 }
