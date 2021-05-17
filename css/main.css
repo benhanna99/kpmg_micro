@@ -44,6 +44,10 @@ html {
   justify-content: space-between;
 }
 
+.navbar-brand .home {
+  visibility: hidden;
+}
+
 h1 {
   font-family: "KPMG", sans-serif;
   font-size: 50px;
@@ -571,6 +575,10 @@ html {
 
 .justify-it {
   justify-content: space-between;
+}
+
+.navbar-brand .home {
+  visibility: hidden;
 }
 
 h1 {
@@ -1454,9 +1462,29 @@ span.small {
     height: 43px;
   }
 }
+@media (max-width: 389px) {
+  .timeline h3.lg-only {
+    padding-top: 25rem;
+  }
+}
+@media (max-width: 365px) {
+  .timeline h3.lg-only {
+    padding-top: 30rem;
+  }
+}
 @media (max-width: 350px) {
   .timeline {
     padding-top: 45rem;
+  }
+}
+@media (max-width: 325px) {
+  .timeline h3.lg-only {
+    padding-top: 35rem;
+  }
+}
+@media (max-width: 299px) {
+  .timeline h3.lg-only {
+    padding-top: 40rem;
   }
 }
 

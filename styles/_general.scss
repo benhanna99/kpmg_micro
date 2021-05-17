@@ -64,6 +64,10 @@ $borderRadius : 15px;
     justify-content: space-between;
 }
 
+.navbar-brand .home {
+    visibility: hidden;
+}
+
 
 h1 {
     font-family: $font-stack2;
