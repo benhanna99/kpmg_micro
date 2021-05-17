@@ -350,6 +350,10 @@
         width: 100%;
         padding-top: 0px;
     }
+
+    .about .content .text {
+        width: 100%;
+    }
     
 }
 
@@ -390,6 +394,15 @@
     .timeline h3.lg-only {
         padding-top: 30rem;
     }
+    .hero .wrapper .content .button {
+        width: 270px;
+    }
+    .hero .wrapper .content .title {
+        font-size: 6em;
+    }
+    .hero .wrapper .content .sub-title {
+        font-size: 30px;
+    }
 }
 
 
@@ -402,6 +415,18 @@
 @media (max-width: 325px) {
     .timeline h3.lg-only {
         padding-top: 35rem;
+    }
+    .about .content .text {
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .about .content .text {
+        width: 100%;
+    }
+    .hero .wrapper .content .button {
+        width: 250px;
     }
 }
 
