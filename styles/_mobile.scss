@@ -241,6 +241,10 @@
         font-size: 26px;
     }
 
+    .about h4 {
+        font-size: 26px;  
+    }
+
     .timeline {
         padding-top: 27rem;
     }
@@ -421,7 +425,7 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
     .about .content .text {
         width: 100%;
     }
