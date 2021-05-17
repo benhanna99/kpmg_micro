@@ -180,7 +180,10 @@
 @media (max-width: 768px) {
     .hero .wrapper .content {
         margin: unset;
-    }
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }    
 
     .hero .wrapper .content .title {
         font-size: 8em;
@@ -396,8 +399,9 @@
 
 @media (max-width: 365px) {
     .timeline h3.lg-only {
-        padding-top: 30rem;
+        padding-top: 26rem;
     }
+
     .hero .wrapper .content .button {
         width: 270px;
     }
@@ -418,8 +422,9 @@
 
 @media (max-width: 325px) {
     .timeline h3.lg-only {
-        padding-top: 35rem;
+        padding-top: 26rem;
     }
+    
     .about .content .text {
         width: 100%;
     }
