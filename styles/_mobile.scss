@@ -232,6 +232,15 @@
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         width: 90%;
     }
+
+    .about .content .text {
+        width: 100%;
+    }
+
+    .main-title.title {
+        font-size: 26px;
+    }
+
     .timeline {
         padding-top: 27rem;
     }
@@ -284,6 +293,9 @@
 
     .about .container {
         width: 90%!important;
+    }
+    .speaker .hoverbox .description {
+        font-size: 14px;
     }
 }
 
